@@ -1,0 +1,9 @@
+.mtext
+ { font-size: large; text-align: center; text-decoration: solid;}
+ .stext
+ { font-size: medium; text-align: end;}
+.attribution 
+{ font-size: 11px; text-align: center; }
+.attribution 
+ { color: hsl(228, 45%, 44%); }
+1
