@@ -1,11 +1,16 @@
-.mtext {
-     font-size: large;
-     text-align: center;
-    text-decoration: solid;
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+.mtext {    
+     font-family: 'Outfit';
+     font-size: 25px;
+     font-weight: 700;
+     text-align: center;     
 }
 .stext {
-    font-size: medium;
-    text-align: end;
+    font-family: 'Outfit';
+    font-size: 17px;
+    font-weight: 400;
+    color: hsl(213, 8%, 50%);
+    text-align: center;
 }
 .attribution {
     font-size: 11px;
@@ -22,7 +27,6 @@
     transform: translate(-50%, -50%);
     width: 300px;
     border: 15px solid white;
-    padding: 15px;
     margin: 20px;
     border-radius: 25px;
     background-color: white;
@@ -30,6 +34,7 @@
 .img {
     max-width: 100%;
     height: auto;
+    border-radius: 5%;
  }
  .background {
      background-color:#D4E0EE;
